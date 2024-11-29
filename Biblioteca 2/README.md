@@ -1,6 +1,8 @@
 # Fazer alteracao no BD
 
 – Alteracoes no BD
+
+
 ALTER TABLE multa ADD COLUMN data_ultima_atualizacao DATE DEFAULT CURRENT_DATE;
 
 CREATE OR REPLACE FUNCTION atualizar_multas()
